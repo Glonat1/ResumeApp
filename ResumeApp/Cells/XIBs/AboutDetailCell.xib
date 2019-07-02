@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AboutDetailCell" id="fhs-Uf-sSQ" customClass="AboutDetailCell" customModule="ResumeApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="317" height="243"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="317" height="243"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lRc-MY-wPU">
+                        <rect key="frame" x="0.0" y="0.0" width="317" height="243"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sdi-Gu-Zm3">
+                                <rect key="frame" x="0.0" y="13" width="317" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="z1l-Lg-ArY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOv-6g-l3K">
+                                <rect key="frame" x="8" y="48" width="301" height="151.5"/>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Sdi-Gu-Zm3" secondAttribute="trailing" id="B29-aQ-dJa"/>
+                            <constraint firstAttribute="trailing" secondItem="qOv-6g-l3K" secondAttribute="trailing" constant="8" id="EQ2-fT-Lfh"/>
+                            <constraint firstItem="Sdi-Gu-Zm3" firstAttribute="top" secondItem="lRc-MY-wPU" secondAttribute="top" constant="13" id="N20-2f-7B8"/>
+                            <constraint firstItem="qOv-6g-l3K" firstAttribute="top" secondItem="Sdi-Gu-Zm3" secondAttribute="bottom" constant="13" id="XVD-dR-jYZ"/>
+                            <constraint firstItem="qOv-6g-l3K" firstAttribute="centerX" secondItem="lRc-MY-wPU" secondAttribute="centerX" id="jWg-BQ-seo"/>
+                            <constraint firstItem="qOv-6g-l3K" firstAttribute="leading" secondItem="lRc-MY-wPU" secondAttribute="leading" constant="8" id="lci-IX-teK"/>
+                            <constraint firstItem="Sdi-Gu-Zm3" firstAttribute="leading" secondItem="lRc-MY-wPU" secondAttribute="leading" id="phK-ke-dLz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="lRc-MY-wPU" firstAttribute="top" secondItem="fhs-Uf-sSQ" secondAttribute="top" id="6HV-lz-uzd"/>
+                <constraint firstAttribute="trailing" secondItem="lRc-MY-wPU" secondAttribute="trailing" id="MLg-8P-gMY"/>
+                <constraint firstAttribute="bottom" secondItem="lRc-MY-wPU" secondAttribute="bottom" id="Uv4-h4-3xs"/>
+                <constraint firstAttribute="bottom" secondItem="lRc-MY-wPU" secondAttribute="bottom" id="bj9-wl-Z7N"/>
+                <constraint firstItem="lRc-MY-wPU" firstAttribute="leading" secondItem="fhs-Uf-sSQ" secondAttribute="leading" id="ecO-H1-a5m"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ojZ-aR-cbV"/>
+            <size key="customSize" width="317" height="243"/>
+            <connections>
+                <outlet property="aboutLabel" destination="qOv-6g-l3K" id="MBD-Ga-p1V"/>
+            </connections>
+            <point key="canvasLocation" x="47.10144927536232" y="32.477678571428569"/>
+        </collectionViewCell>
+    </objects>
+</document>

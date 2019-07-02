@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "There was a problem communicating with the app."; ObjectID = "Cpf-iB-pXY"; */
+"Cpf-iB-pXY.text" = "There was a problem communicating with the app.";
+
+/* Class = "UIButton"; normalTitle = "Retry"; ObjectID = "VCU-7E-XUY"; */
+"VCU-7E-XUY.normalTitle" = "Retry";
+
+/* Class = "UIViewController"; title = "ProfileViewController"; ObjectID = "zIc-eW-6fX"; */
+"zIc-eW-6fX.title" = "ProfileViewController";

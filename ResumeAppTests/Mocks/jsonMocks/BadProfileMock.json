@@ -1,0 +1,36 @@
+
+{
+    "name": "Isaac Sanchez",
+    "pictureURL": "https://i.ibb.co/LCH5y41/0.jpg"
+    "sections":
+        
+            "title": "About me",
+            "summary": "Lead the development of the main projects for both platforms: iOS & Android, Worked with Scrum methodology, Migrated projects to the newest versions to approach the newest technology features. Implemented some iOS apps to the Android Platform."
+        },
+        {
+            "title": "Experience",
+            "experience": {
+                "iceCodeSummary": " (07/2016 - 11/2017) Mobile Developer",
+                "uaqSummary": "(01/2016 - 05/2016) Web Developer",
+                "universitySummary": "(07/2012 - 05/2016) BS, Software Engineering"
+            }
+        },
+        {
+            "title": "Skills and qualities",
+            "skills": {
+                "swiftSummary": "2 years of experience",
+                "gitSummary": "2 years of experience",
+                "javaSummary": "1 year of experience",
+                "androidSummary": "1 year of experience"
+            }
+        },
+        {
+            "title": "Contact Me",
+            "information": {
+                "direction": "Av. Insurgentes Sur 859, Napoles, CDMX",
+                "cellphone": "LinkedIn.com/in/isaacsanchezg",
+                "email": "isaac.sanchez@globant.com"
+            }
+        }
+    ]
+}

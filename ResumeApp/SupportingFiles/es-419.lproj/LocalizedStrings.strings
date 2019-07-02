@@ -1,0 +1,13 @@
+/* 
+  LocalizedStrings.strings
+  ResumeApp
+*/
+"no_title" = "No hay título";
+"nothing_to_how" = "Nada para mostrar";
+"section_collection_view_is_nil" = "La sección del collection view está vacío";
+"there_is_no_section_cell" = "No hay ninguna sección en la celda";
+"invaild_path" = "Path inválido";
+"invaild_test_raw_data" = "Test del dato de la fila inválido";
+"invaild_model" = "Modelo inválido";
+"downloading_profile" = "Downloading profile data triggers resume()";
+"success_download_profile_data" = "Profile data downloads with success";

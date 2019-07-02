@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SkillsDetailCell" id="azk-zV-060" customClass="SkillsDetailCell" customModule="ResumeApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="317" height="243"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="317" height="243"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fTx-5a-eEl">
+                        <rect key="frame" x="0.0" y="0.0" width="317" height="243"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skills" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0VO-eM-6uF">
+                                <rect key="frame" x="0.0" y="13" width="317" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="EtW-nU-6MS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="SPd-WF-uRO">
+                                <rect key="frame" x="6" y="48" width="76.5" height="166"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Swift:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eA9-GR-yRi">
+                                        <rect key="frame" x="0.0" y="0.0" width="76.5" height="19"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Git" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWo-tQ-0Al">
+                                        <rect key="frame" x="0.0" y="49" width="76.5" height="19"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Java" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4N-Zg-n4w">
+                                        <rect key="frame" x="0.0" y="98" width="76.5" height="19"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Andriod" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mN8-AJ-DAA">
+                                        <rect key="frame" x="0.0" y="147" width="76.5" height="19"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6D3-cR-LlJ">
+                                <rect key="frame" x="103" y="48" width="206.5" height="38"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor Lorem ipsum dolor sit amet." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f55-np-6k8">
+                                <rect key="frame" x="103" y="146" width="206.5" height="38"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apj-aP-z9S">
+                                <rect key="frame" x="103" y="97" width="206.5" height="38"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWi-mt-NbL">
+                                <rect key="frame" x="103" y="195" width="206.5" height="38"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="6D3-cR-LlJ" secondAttribute="trailing" constant="7.5" id="1aJ-P2-SJ2"/>
+                            <constraint firstAttribute="trailing" secondItem="NWi-mt-NbL" secondAttribute="trailing" constant="7.5" id="1g6-UX-IuG"/>
+                            <constraint firstAttribute="trailing" secondItem="apj-aP-z9S" secondAttribute="trailing" constant="7.5" id="6Fv-74-R32"/>
+                            <constraint firstItem="SPd-WF-uRO" firstAttribute="leading" secondItem="fTx-5a-eEl" secondAttribute="leading" constant="6" id="Bsj-HF-v8E"/>
+                            <constraint firstItem="SPd-WF-uRO" firstAttribute="top" secondItem="0VO-eM-6uF" secondAttribute="bottom" constant="13" id="FKo-K5-fBe"/>
+                            <constraint firstItem="f55-np-6k8" firstAttribute="leading" secondItem="q4N-Zg-n4w" secondAttribute="trailing" constant="20.5" id="HEp-xy-elA"/>
+                            <constraint firstItem="f55-np-6k8" firstAttribute="top" secondItem="q4N-Zg-n4w" secondAttribute="top" id="JTt-O4-ubk"/>
+                            <constraint firstItem="NWi-mt-NbL" firstAttribute="top" secondItem="mN8-AJ-DAA" secondAttribute="top" id="LyJ-SG-xI7"/>
+                            <constraint firstItem="0VO-eM-6uF" firstAttribute="leading" secondItem="fTx-5a-eEl" secondAttribute="leading" id="Qg7-Mm-Vbu"/>
+                            <constraint firstItem="6D3-cR-LlJ" firstAttribute="leading" secondItem="eA9-GR-yRi" secondAttribute="trailing" constant="20.5" id="WDV-th-nB2"/>
+                            <constraint firstAttribute="trailing" secondItem="f55-np-6k8" secondAttribute="trailing" constant="7.5" id="Xnq-6d-YGO"/>
+                            <constraint firstItem="0VO-eM-6uF" firstAttribute="top" secondItem="fTx-5a-eEl" secondAttribute="top" constant="13" id="Yz3-Rn-OAZ"/>
+                            <constraint firstItem="6D3-cR-LlJ" firstAttribute="top" secondItem="eA9-GR-yRi" secondAttribute="top" id="hBb-mQ-kSv"/>
+                            <constraint firstItem="apj-aP-z9S" firstAttribute="leading" secondItem="xWo-tQ-0Al" secondAttribute="trailing" constant="20.5" id="q4s-lb-k83"/>
+                            <constraint firstAttribute="trailing" secondItem="0VO-eM-6uF" secondAttribute="trailing" id="quD-Pi-0qb"/>
+                            <constraint firstItem="0VO-eM-6uF" firstAttribute="leading" secondItem="SPd-WF-uRO" secondAttribute="trailing" constant="-82.5" id="rxH-KV-zsY"/>
+                            <constraint firstItem="NWi-mt-NbL" firstAttribute="leading" secondItem="mN8-AJ-DAA" secondAttribute="trailing" constant="20.5" id="xPL-E0-mHl"/>
+                            <constraint firstItem="apj-aP-z9S" firstAttribute="top" secondItem="xWo-tQ-0Al" secondAttribute="top" id="yY5-96-zbf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="fTx-5a-eEl" secondAttribute="bottom" id="2Sh-A6-GUz"/>
+                <constraint firstAttribute="trailing" secondItem="fTx-5a-eEl" secondAttribute="trailing" id="DU5-sQ-CDK"/>
+                <constraint firstItem="fTx-5a-eEl" firstAttribute="leading" secondItem="azk-zV-060" secondAttribute="leading" id="ZEE-bj-h7M"/>
+                <constraint firstItem="fTx-5a-eEl" firstAttribute="top" secondItem="azk-zV-060" secondAttribute="top" id="kwr-bF-pDv"/>
+                <constraint firstAttribute="bottom" secondItem="fTx-5a-eEl" secondAttribute="bottom" id="qw2-HW-1dn"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="n3W-8x-ZnH"/>
+            <size key="customSize" width="317" height="295"/>
+            <connections>
+                <outlet property="androidSummary" destination="NWi-mt-NbL" id="hAj-Ee-Pe6"/>
+                <outlet property="gitSummary" destination="apj-aP-z9S" id="hSj-PP-0K6"/>
+                <outlet property="javaSummary" destination="f55-np-6k8" id="p6o-6U-wJq"/>
+                <outlet property="swiftSummary" destination="6D3-cR-LlJ" id="wKz-EM-u5a"/>
+            </connections>
+            <point key="canvasLocation" x="47.10144927536232" y="49.888392857142854"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,6 @@
+///  ResumeApp.xcconfig
+//  ResumeApp
+
+APP_NAME = ResumeApp
+APP_VERSION = 1.0
+APP_BUNDLE_ID = Globant.ResumeAppGlobant.ResumeApp

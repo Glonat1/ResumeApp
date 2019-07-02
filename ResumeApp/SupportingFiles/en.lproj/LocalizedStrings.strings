@@ -1,0 +1,13 @@
+/* 
+  LocalizedStrings.strings
+  ResumeApp
+*/
+"no_title" = "No title";
+"nothing_to_how" = "Nothing to show";
+"section_collection_view_is_nil" = "Section collection view is nil";
+"there_is_no_section_cell" = "There is no section cell";
+"invaild_path" = "Invaild path";
+"invaild_test_raw_data" = "Invaild test raw data";
+"invaild_model" = "Invaild Model";
+"downloading_profile" = "Descargando perfil";
+"success_download_profile_data" = "Correcta descarga de los datos del perfil";
